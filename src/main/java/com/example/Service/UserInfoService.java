@@ -28,10 +28,7 @@ public class UserInfoService {
     public List<UserInfo> getAllUsers() {
         return userInfoRepository.findAll();
     }
-    private void sysout() {
-		// TODO Auto-generated method stub
-
-	}
+    
 
     public UserInfo saveUser(UserInfo userInfo) {
         // Department ko save karna agar wo null nahi hai
